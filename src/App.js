@@ -1,19 +1,11 @@
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <h1>Pokemon Evolution</h1>
+      <div className="pokemon-container">
+        <div className="all-container"></div>
+        <button className="load-more">Load more</button>
+      </div>
     </div>
   );
 }
